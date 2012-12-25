@@ -1,0 +1,6 @@
+MyCollections = collections.namedtuple("MyCollections", "param1 param2 param3")
+p1 = Person(    param1="A Parameter value", 
+                param2="Another String Parameter", 
+                param3 = 100) #param3 is numeric.
+                
+                

@@ -1,0 +1,54 @@
+import logging
+import logging.config
+
+
+########################################################################
+class :
+    """"""
+
+    #----------------------------------------------------------------------
+    def __init__(self):
+        """Constructor"""
+        logging_name = __name__
+        self.logger = logging.getLogger("console_logger")
+        
+
+    
+
+if __name__ == "__main__":
+    
+    LOGGING = {
+        'version': 1,
+        'formatters': {
+            'verbose': {
+                'format': '  : '
+            },
+        },
+       
+        'handlers': {
+    
+            'console':{
+                'level': 'DEBUG',
+                'class': 'logging.StreamHandler',
+                'formatter': 'verbose'
+            }
+            
+        },
+        'loggers': {
+            'console_logger': {
+                'handlers': ['console'],
+                'propagate': True,
+                'level': 'DEBUG',
+            }
+                       
+        }
+    }
+    
+       
+    logging.config.dictConfig(LOGGING)    
+    logger = logging.getLogger("console_logger")
+    
+    logger.info("Starting...")
+    #main()
+    
+    

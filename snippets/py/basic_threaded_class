@@ -1,0 +1,28 @@
+import threading
+from time import sleep
+
+class BasicThreadedClass(threading.Thread):
+   
+   def __init__(self, host, abs_filename, remote_path=None,
+                username=None, password=None, port=None,
+                queue = None):
+
+      threading.Thread.__init__(self)
+      self.daemon = True
+      self._stop = threading.Event()
+      self.exit_flag = False        
+
+      l_name = "boxmedia.uploader.FileUploader"
+      self.logger = logging.getLogger(l_name)
+      
+
+   def stop(self):
+
+      self.exit_flag = True
+      self._stop.set()
+
+   def stopped(self):
+      return self._stop.isSet() 
+
+
+

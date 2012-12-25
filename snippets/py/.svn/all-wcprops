@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/j2code/wingide/svn/!svn/ver/1/trunk/wingide-config/snippets/py
+END
+file
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/j2code/wingide/svn/!svn/ver/1/trunk/wingide-config/snippets/py/file
+END
+main
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/j2code/wingide/svn/!svn/ver/2/trunk/wingide-config/snippets/py/main
+END
+main_with_logging
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/j2code/wingide/svn/!svn/ver/7/trunk/wingide-config/snippets/py/main_with_logging
+END
+doc_comment
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/j2code/wingide/svn/!svn/ver/7/trunk/wingide-config/snippets/py/doc_comment
+END
+new_file
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/j2code/wingide/svn/!svn/ver/2/trunk/wingide-config/snippets/py/new_file
+END
+gtk_main
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/j2code/wingide/svn/!svn/ver/2/trunk/wingide-config/snippets/py/gtk_main
+END
+thread_class
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/j2code/wingide/svn/!svn/ver/7/trunk/wingide-config/snippets/py/thread_class
+END
+def
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/j2code/wingide/svn/!svn/ver/1/trunk/wingide-config/snippets/py/def
+END
+namedtuple
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/j2code/wingide/svn/!svn/ver/5/trunk/wingide-config/snippets/py/namedtuple
+END
+crypt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/j2code/wingide/svn/!svn/ver/3/trunk/wingide-config/snippets/py/crypt
+END
+class
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/j2code/wingide/svn/!svn/ver/1/trunk/wingide-config/snippets/py/class
+END
+class_with_logging
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/j2code/wingide/svn/!svn/ver/7/trunk/wingide-config/snippets/py/class_with_logging
+END
+ifelse
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/j2code/wingide/svn/!svn/ver/1/trunk/wingide-config/snippets/py/ifelse
+END
+urlretrieve
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/j2code/wingide/svn/!svn/ver/2/trunk/wingide-config/snippets/py/urlretrieve
+END
+try
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/j2code/wingide/svn/!svn/ver/1/trunk/wingide-config/snippets/py/try
+END
